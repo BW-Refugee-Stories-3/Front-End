@@ -157,6 +157,12 @@ body {
   left: 0%;
   top: 5%;
 }
+@media (max-width: 500px) {
+  .nav-bar nav {
+    justify-content: space-around;
+    width: 95%;
+  }
+}
 footer {
   font-color: white;
   background: grey;
@@ -191,7 +197,14 @@ footer {
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin: 2% 28%;
+  margin: 2% 25%;
+  background-color: white;
+  color: black;
+  border: 2px solid #ff9efc;
+}
+.story .story1 button:hover {
+  background-color: #ff9efc;
+  color: white;
 }
 .story .story2 {
   width: 30%;
@@ -211,13 +224,20 @@ footer {
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin: 2% 28%;
+  margin: 2% 25%;
+  background-color: white;
+  color: black;
+  border: 2px solid #ff9efc;
+}
+.story .story2 button:hover {
+  background-color: #ff9efc;
+  color: white;
 }
 .story .story3 {
   width: 30%;
 }
 .story .story3 img {
-  width: 100%;
+  width: 94%;
   padding: 3%;
 }
 .story .story3 p {
@@ -227,11 +247,17 @@ footer {
 .story .story3 button {
   padding: 1%;
   border-radius: 8px;
-  background: grey;
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin: 2% 28%;
+  margin: 2% 25%;
+  background-color: white;
+  color: black;
+  border: 2px solid #ff9efc;
+}
+.story .story3 button:hover {
+  background-color: #ff9efc;
+  color: white;
 }
 .about {
   width: 97%;
