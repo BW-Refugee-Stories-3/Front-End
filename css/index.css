@@ -209,10 +209,9 @@ footer {
   border-radius: 2px;
   background: grey;
   font-size: 20px;
-  width: 35%;
   align-items: center;
-  margin-left: 35%;
   margin-top: 2%;
+  text-align: center;
 }
 .story .story3 {
   width: 30%;
