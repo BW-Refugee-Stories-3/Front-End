@@ -126,6 +126,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html,
+body {
+  font-family: 'Varela Round', sans-serif;
+}
 .nav-bar {
   display: flex;
   justify-content: center;
@@ -133,7 +137,8 @@ table {
   flex-direction: column;
 }
 .nav-bar h1 {
-  font-size: 40px;
+  padding: 3% 0;
+  font-size: 50px;
 }
 .nav-bar nav {
   display: flex;
@@ -147,7 +152,7 @@ table {
   font-size: 20px;
 }
 .nav-bar .header-img {
-  width: 100%;
+  width: 97%;
   height: 278px;
   left: 0%;
   top: 5%;
@@ -162,34 +167,82 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.about {
+.story {
   margin-top: 2%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
-.about .about-img {
-  width: 50%;
+.story .story1 {
+  width: 30%;
 }
-.about .about-img img {
+.story .story1 img {
   width: 100%;
-  padding: 2%;
+  padding: 3%;
 }
-.about .about-text {
-  width: 50%;
-  padding: 2%;
-}
-.about .about-text h4 {
-  font-size: 20px;
-}
-.about .about-text p {
+.story .story1 p {
   text-align: center;
+  padding: 3% 9%;
 }
-.about .about-text .btn {
-  padding: 4%;
+.story .story1 .btn {
+  padding: 3%;
   border-radius: 2px;
   background: grey;
   font-size: 20px;
-  width: 60%;
+  width: 35%;
   align-items: center;
+  margin-left: 5% 35%;
+}
+.story .story2 {
+  width: 30%;
+}
+.story .story2 img {
+  width: 100%;
+  padding: 3%;
+}
+.story .story2 p {
+  text-align: center;
+  padding: 3% 9%;
+}
+.story .story2 .btn {
+  padding: 3%;
+  border-radius: 2px;
+  background: grey;
+  font-size: 20px;
+  width: 35%;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 2%;
+}
+.story .story3 {
+  width: 30%;
+}
+.story .story3 img {
+  width: 100%;
+  padding: 3%;
+}
+.story .story3 p {
+  text-align: center;
+  padding: 3% 9%;
+}
+.story .story3 .btn {
+  padding: 3%;
+  border-radius: 2px;
+  background: grey;
+  font-size: 20px;
+  width: 35%;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.story .about-text {
+  width: 60%;
+  padding: 3%;
+}
+.story .about-text h4 {
+  font-size: 18px;
+  text-align: center;
+}
+.story .about-text p {
+  text-align: center;
 }
