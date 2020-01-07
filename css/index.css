@@ -184,14 +184,14 @@ footer {
   text-align: center;
   padding: 3% 9%;
 }
-.story .story1 .btn {
-  padding: 3%;
-  border-radius: 2px;
+.story .story1 button {
+  padding: 1%;
+  border-radius: 8px;
   background: grey;
   font-size: 20px;
-  width: 35%;
   align-items: center;
-  margin-left: 5% 35%;
+  text-align: center;
+  margin: 2% 28%;
 }
 .story .story2 {
   width: 30%;
@@ -204,14 +204,14 @@ footer {
   text-align: center;
   padding: 3% 9%;
 }
-.story .story2 .btn {
-  padding: 3%;
-  border-radius: 2px;
+.story .story2 button {
+  padding: 1%;
+  border-radius: 8px;
   background: grey;
   font-size: 20px;
   align-items: center;
-  margin-top: 2%;
   text-align: center;
+  margin: 2% 28%;
 }
 .story .story3 {
   width: 30%;
@@ -224,24 +224,23 @@ footer {
   text-align: center;
   padding: 3% 9%;
 }
-.story .story3 .btn {
-  padding: 3%;
-  border-radius: 2px;
+.story .story3 button {
+  padding: 1%;
+  border-radius: 8px;
   background: grey;
   font-size: 20px;
-  width: 35%;
   align-items: center;
-  margin-left: 40%;
-  margin-top: 2%;
+  text-align: center;
+  margin: 2% 28%;
 }
-.story .about-text {
-  width: 60%;
+.about {
+  width: 97%;
   padding: 3%;
 }
-.story .about-text h4 {
+.about h4 {
   font-size: 18px;
   text-align: center;
 }
-.story .about-text p {
+.about p {
   text-align: center;
 }
