@@ -128,7 +128,7 @@ table {
 }
 html,
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Amatic SC', cursive;
 }
 .nav-bar {
   display: flex;
@@ -139,6 +139,11 @@ body {
 .nav-bar h1 {
   padding: 3% 0;
   font-size: 50px;
+}
+.nav-bar h4 {
+  font-size: 18px;
+  text-align: center;
+  margin: 2%;
 }
 .nav-bar nav {
   display: flex;
@@ -152,11 +157,15 @@ body {
   color: black;
   font-size: 20px;
 }
+.nav-bar a:hover {
+  color: #ff9efc;
+}
 .nav-bar .header-img {
   width: 97%;
   height: 278px;
   left: 0%;
   top: 5%;
+  margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   .nav-bar nav {
@@ -175,7 +184,6 @@ footer {
   align-items: center;
 }
 .story {
-  margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -204,6 +212,7 @@ footer {
   align-items: center;
   text-align: center;
   margin: 2% 29%;
+  width: 50%;
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
@@ -221,7 +230,7 @@ footer {
     margin-top: 1%;
   }
   .story .story1 button {
-    margin: 1% 38%;
+    margin: 1% 25%;
   }
 }
 .story .story2 {
@@ -246,6 +255,7 @@ footer {
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
+  width: 50%;
 }
 .story .story2 button:hover {
   background-color: #ff9efc;
@@ -260,7 +270,7 @@ footer {
     margin-top: 2%;
   }
   .story .story2 button {
-    margin: 1% 38%;
+    margin: 1% 25%;
   }
 }
 .story .story3 {
@@ -281,6 +291,7 @@ footer {
   align-items: center;
   text-align: center;
   margin: 2% 29%;
+  width: 50%;
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
@@ -299,16 +310,12 @@ footer {
     margin-top: 1%;
   }
   .story .story3 button {
-    margin: 1% 38%;
+    margin: 1% 25%;
   }
 }
 .about {
   width: 97%;
-  padding: 3%;
-}
-.about h4 {
-  font-size: 18px;
-  text-align: center;
+  margin: 2%;
 }
 .about p {
   text-align: center;
