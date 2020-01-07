@@ -143,8 +143,9 @@ body {
 .nav-bar nav {
   display: flex;
   justify-content: space-around;
-  width: 70%;
+  width: 80%;
   padding: 1%;
+  border-top: 2px dashed black;
 }
 .nav-bar a {
   text-decoration: none;
@@ -179,6 +180,11 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .story {
+    flex-direction: column;
+  }
+}
 .story .story1 {
   width: 30%;
 }
@@ -197,7 +203,7 @@ footer {
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin: 2% 25%;
+  margin: 2% 23%;
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
@@ -205,6 +211,18 @@ footer {
 .story .story1 button:hover {
   background-color: #ff9efc;
   color: white;
+}
+@media (max-width: 500px) {
+  .story .story1 {
+    width: 97%;
+  }
+  .story .story1 img {
+    padding: 0%;
+    margin-top: 1%;
+  }
+  .story .story1 button {
+    margin: 1% 38%;
+  }
 }
 .story .story2 {
   width: 30%;
@@ -224,7 +242,7 @@ footer {
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin: 2% 25%;
+  margin: 2% 23%;
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
@@ -232,6 +250,18 @@ footer {
 .story .story2 button:hover {
   background-color: #ff9efc;
   color: white;
+}
+@media (max-width: 500px) {
+  .story .story2 {
+    width: 97%;
+  }
+  .story .story2 img {
+    padding: 0%;
+    margin-top: 2%;
+  }
+  .story .story2 button {
+    margin: 1% 38%;
+  }
 }
 .story .story3 {
   width: 30%;
@@ -250,7 +280,7 @@ footer {
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin: 2% 25%;
+  margin: 2% 23%;
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
@@ -258,6 +288,19 @@ footer {
 .story .story3 button:hover {
   background-color: #ff9efc;
   color: white;
+}
+@media (max-width: 500px) {
+  .story .story3 {
+    width: 97%;
+  }
+  .story .story3 img {
+    padding: 0%;
+    width: 100%;
+    margin-top: 1%;
+  }
+  .story .story3 button {
+    margin: 1% 38%;
+  }
 }
 .about {
   width: 97%;
