@@ -1,7 +1,7 @@
 .nav-bar{
 
     h1{
-        padding: 3% 0;
+        padding: 0 0 3% 0;
         font-size: 50px;
     }
 
@@ -19,9 +19,9 @@
     nav{
         display: flex;
         justify-content: space-around;
-        width: 100%;
-        padding: 1%;
+        width: 97%;
         border-top: 2px dashed black;
+        padding: 1% 0;
     }
 
     a{
@@ -34,13 +34,27 @@
         color:rgb(255, 158, 252);
     }
   
-    .header-img{
-        height: 300px;
-        width: 100%;
-        left: 0%;
-        top: 5%;
-        margin-bottom: 2%;
+    .main-images{
+        display: flex;
+        justify-content: space-evenly;
+        
+        .header-img{
+            width: 48%;
+        }
+        .header-img2{
+            width: 48%;
+        }
+        @media @phone{
+            flex-direction: column;
     
+            .header-img{
+                width: 97%;
+                margin-bottom: 2%;
+            }
+            .header-img2{
+                width: 97%;
+            }
+        }
 
     }
     @media @phone{
