@@ -381,6 +381,11 @@ footer {
   border: 1px dotted #ff9efc;
   padding: 2%;
 }
+@media (max-width: 500px) {
+  .team-members .indiv-member {
+    width: 90%;
+  }
+}
 .team-members .img-member {
   display: flex;
   margin-left: auto;
