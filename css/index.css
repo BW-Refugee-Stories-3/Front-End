@@ -372,6 +372,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
+  border: 1px dotted #ff9efc;
+  padding: 2%;
 }
 .team-members .img-member {
   display: flex;
