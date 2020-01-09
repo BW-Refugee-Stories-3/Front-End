@@ -381,6 +381,11 @@ footer {
   margin-right: auto;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .team-members .img-member {
+    width: 50%;
+  }
+}
 .team-members .info {
   text-align: center;
   display: flex;
@@ -394,4 +399,41 @@ footer {
 .team-members .info .title {
   font-size: 13px;
   padding: 2%;
+}
+.team-members .info .follow a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 2%;
+}
+.team-members .info .follow a:hover {
+  color: #ff9efc;
+}
+.contactus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dotted #ff9efc;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactus .title-contactus {
+  font-size: 20px;
+  margin: 2%;
+}
+.contactus button {
+  padding: 1%;
+  border-radius: 8px;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  width: 110%;
+  background-color: white;
+  color: black;
+  border: 2px solid #ff9efc;
+}
+.contactus button:hover {
+  background-color: #ff9efc;
+  color: white;
 }
