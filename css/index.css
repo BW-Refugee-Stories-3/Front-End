@@ -383,7 +383,7 @@ footer {
 }
 @media (max-width: 500px) {
   .team-members .indiv-member {
-    width: 90%;
+    width: 100%;
   }
 }
 .team-members .img-member {
@@ -430,6 +430,11 @@ footer {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2%;
+}
+@media (max-width: 500px) {
+  .contactus {
+    width: 100%;
+  }
 }
 .contactus .title-contactus {
   font-size: 20px;
