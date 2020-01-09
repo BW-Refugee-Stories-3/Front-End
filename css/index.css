@@ -364,6 +364,12 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .team-members {
+    width: 100%;
+    height: 50%;
+  }
+}
 .team-members .indiv-member {
   display: flex;
   justify-content: center;
@@ -384,6 +390,7 @@ footer {
 @media (max-width: 500px) {
   .team-members .img-member {
     width: 50%;
+    height: 50%;
   }
 }
 .team-members .info {
@@ -417,6 +424,7 @@ footer {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 2%;
 }
 .contactus .title-contactus {
   font-size: 20px;
