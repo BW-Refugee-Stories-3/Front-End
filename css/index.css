@@ -196,11 +196,15 @@ h1 {
   width: 47%;
   border: 2px dotted #ff9efc;
   padding: 1%;
+  margin-top: 2%;
+  border-radius: 10px;
 }
 .nav-bar .main-images .header-img2 {
   width: 47%;
   border: 2px dotted #ff9efc;
   padding: 1%;
+  margin-top: 2%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .nav-bar .main-images {
@@ -508,6 +512,10 @@ footer {
   background-color: #ff9efc;
   color: white;
   border: 1px solid white;
+}
+.contactus .btn-thanks {
+  text-decoration: none;
+  color: black;
 }
 .userinput {
   width: 90%;
