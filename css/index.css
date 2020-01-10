@@ -193,12 +193,12 @@ h1 {
 }
 .nav-bar .main-images .header-img {
   width: 47%;
-  border: 1px dotted #ff9efc;
+  border: 2px dotted #ff9efc;
   padding: 1%;
 }
 .nav-bar .main-images .header-img2 {
   width: 47%;
-  border: 1px dotted #ff9efc;
+  border: 2px dotted #ff9efc;
   padding: 1%;
 }
 @media (max-width: 500px) {
@@ -220,7 +220,7 @@ h1 {
   }
 }
 footer {
-  font-color: white;
+  color: white;
   background: grey;
   padding: 20px 0;
   border: 1px double #e0e0e0;
@@ -228,6 +228,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-style: italic;
 }
 .story {
   display: flex;
@@ -249,6 +250,7 @@ footer {
 .story .story1 p {
   text-align: center;
   padding: 3% 9%;
+  font-size: 15px;
 }
 .story .story1 button {
   padding: 1%;
@@ -292,6 +294,7 @@ footer {
 .story .story2 p {
   text-align: center;
   padding: 3% 9%;
+  font-size: 15px;
 }
 .story .story2 button {
   padding: 1%;
@@ -332,6 +335,7 @@ footer {
 .story .story3 p {
   text-align: center;
   padding: 3% 9%;
+  font-size: 15px;
 }
 .story .story3 button {
   padding: 1%;
@@ -377,6 +381,11 @@ footer {
   align-items: center;
   font-size: 40px;
   padding: 2%;
+  flex-direction: column;
+}
+.aboutus-intro .aboutus-2 {
+  font-size: 15px;
+  padding: 2%;
 }
 .team-members {
   display: flex;
@@ -399,8 +408,9 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
-  border: 1px dotted #ff9efc;
+  border: 3px dotted #ff9efc;
   padding: 2%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .team-members .indiv-member {
@@ -447,11 +457,12 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px dotted #ff9efc;
+  border: 2px dotted #ff9efc;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2%;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .contactus {

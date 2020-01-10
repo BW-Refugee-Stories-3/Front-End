@@ -1,222 +1,221 @@
-.story{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.story {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
-    @media @phone{
-        flex-direction: column;
+  @media @phone {
+    flex-direction: column;
+  }
+
+  .story1 {
+    width: 30%;
+
+    img {
+      width: 100%;
+      padding: 3%;
+    }
+    p {
+      text-align: center;
+      padding: 3% 9%;
+      font-size: 15px;
+    }
+    button {
+      .button();
+    }
+    button:hover {
+      background-color: @main-color;
+      color: white;
+    }
+    .button-link {
+      text-decoration: none;
+    }
+    @media @phone {
+      width: 97%;
+
+      img {
+        padding: 0%;
+        margin-top: 1%;
+      }
+      button {
+        margin: 1% 25%;
+      }
+    }
+  } //end of story1
+  .story2 {
+    width: 30%;
+
+    img {
+      width: 100%;
+      padding: 3%;
+    }
+    p {
+      text-align: center;
+      padding: 3% 9%;
+      font-size: 15px;
+    }
+    button {
+      .button();
+    }
+    button:hover {
+      background-color: @main-color;
+      color: white;
+    }
+    @media @phone {
+      width: 97%;
+
+      img {
+        padding: 0%;
+        margin-top: 2%;
+      }
+      button {
+        margin: 1% 22%;
+      }
+    }
+  } //end of story2
+
+  .story3 {
+    width: 30%;
+
+    img {
+      width: 94%;
+      padding: 3%;
+    }
+    p {
+      text-align: center;
+      padding: 3% 9%;
+      font-size: 15px;
     }
 
-.story1{
-     width: 30%;
+    button {
+      .button();
+    }
+    button:hover {
+      background-color: @main-color;
+      color: white;
+    }
+    @media @phone {
+      width: 97%;
 
-    img{
+      img {
+        padding: 0%;
         width: 100%;
-        padding: 3%;
+        margin-top: 1%;
+      }
+      button {
+        margin: 1% 25%;
+      }
     }
-    p{
-        text-align: center; 
-        padding: 3% 9%;
-        }
-         button{
-            .button();
-         }
-         button:hover{
-            background-color:@main-color;
-            color: white;
-        }
-        .button-link{
-            text-decoration: none;
-        }
-        @media @phone{
-            width: 97%;
-    
-            img{
-                padding: 0%;
-                margin-top: 1%;
-            }
-            button{
-                margin: 1% 25%;
-            }
-        }
-    }//end of story1
-    .story2{
-        width: 30%;
+  } //end of story3
+} //end of story
+.about {
+  width: 97%;
+  margin: 2%;
 
-        img{
-            width: 100%;
-            padding: 3%;
-        }
-        p{
-            text-align: center; 
-            padding: 3% 9%;
-         }
-         button{
-            .button();
-           
-         }
-         button:hover{
-            background-color:@main-color;
-            color: white;
-        }
-        @media @phone{
-            width: 97%;
-    
-            img{
-                padding: 0%;
-                margin-top: 2%;
-            }
-            button{
-                margin: 1% 22%;
-                
-            }
-        }
-    }//end of story2
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+} //end of about-text
+.aboutus-intro {
+  .center();
+  font-size: 40px;
+  padding: 2%;
+  flex-direction: column;
 
-    .story3{
-        width: 30%;
+.aboutus-2{
+    font-size: 15px;
+    padding: 2%;
+  }
+}
+.team-members {
+  .center();
+  flex-direction: column;
+  @media @phone {
+    width: 100%;
+    height: 50%;
+  }
 
-        img{
-            width: 94%;
-            padding: 3%;
-        }
-        p{
-            text-align: center; 
-            padding: 3% 9%;
-         }
-
-         button{
-            .button();
-         }
-         button:hover{
-            background-color:@main-color;
-            color: white;
-        }
-        @media @phone{
-            width: 97%;
-    
-            img{
-                padding: 0%;
-                width: 100%;
-                margin-top: 1%;
-            }
-            button{
-                margin: 1% 25%;
-            }
-        }
-    }//end of story3
-    
-
-
-}//end of story
-    .about{
-        width: 97%;
-        margin: 2%;
-    
-        p{
-           text-align: center; 
-           font-size: 18px;
-        }
-        
-    }//end of about-text
-    .aboutus-intro{
-        .center();
-        font-size: 40px;
-        padding: 2%;
+  .indiv-member {
+    .center();
+    flex-direction: row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border: 3px dotted @main-color;
+    padding: 2%;
+    border-radius: 10px;
+    @media @phone {
+      width: 100%;
     }
-    .team-members{
-        .center();
-        flex-direction: column;
-        @media @phone{
-            width: 100%;
-            height: 50%;
-        }
+  }
+  .img-member {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
 
-        .indiv-member{
-            .center();
-            flex-direction: row;
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 2%;
-            border: 1px dotted @main-color;
-            padding: 2%;
-            @media @phone{
-                width: 100%;
-            }
-
-        }
-        .img-member{
-            display: flex;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-            border-radius: 25px;
-           
-            @media @phone{
-                width: 50%;
-                height: 50%;
-            }
-        }
-
-        .info{
-            .center();
-            flex-direction: column;
-            width: 50%;
-
-            .name{
-                margin: 2%;
-                display: inline-block;
-                text-align: center;
-                
-            }
-            .title{
-                font-size: 13px;
-                padding: 2%;
-                display: inline-block;
-                text-align: center;
-            }
-            .follow-img{
-                width: 25%;
-                margin:2% 0 0 38%;
-                
-            }
-        }
-
+    @media @phone {
+      width: 50%;
+      height: 50%;
     }
-    .contactus{
-        .center();
-        flex-direction: column;
-        border: 1px dotted  @main-color;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 2%;
+  }
 
-        @media (max-width: 500px){
-            width: 100%;
-            background: @main-color;
-        }
+  .info {
+    .center();
+    flex-direction: column;
+    width: 50%;
 
-
-        .title-contactus{
-            font-size:20px;
-            margin: 2%;
-        }
-
-        button{
-            .button();
-            background: grey;
-            font-size: 20px;
-            width: 120%;
-            margin: 2% 12%;
-            display: inline-block;
-            text-align: center;
-         }
-         button:hover{
-            background-color:@main-color;
-            color: white;
-            border: 1px solid white;
-        }
+    .name {
+      margin: 2%;
+      display: inline-block;
+      text-align: center;
     }
+    .title {
+      font-size: 13px;
+      padding: 2%;
+      display: inline-block;
+      text-align: center;
+    }
+    .follow-img {
+      width: 25%;
+      margin: 2% 0 0 38%;
+    }
+  }
+}
+.contactus {
+  .center();
+  flex-direction: column;
+  border: 2px dotted @main-color;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+  border-radius: 10px;
 
+  @media (max-width: 500px) {
+    width: 100%;
+    background: @main-color;
+  }
+
+  .title-contactus {
+    font-size: 20px;
+    margin: 2%;
+  }
+
+  button {
+    .button();
+    background: grey;
+    font-size: 20px;
+    width: 120%;
+    margin: 2% 12%;
+    display: inline-block;
+    text-align: center;
+  }
+  button:hover {
+    background-color: @main-color;
+    color: white;
+    border: 1px solid white;
+  }
+}

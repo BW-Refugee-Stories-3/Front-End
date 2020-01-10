@@ -1,67 +1,65 @@
-.nav-bar{
-    .center();
-    flex-direction: column;
-    h1{
-        padding: 0 0 3% 0;
-        font-size: 50px; 
-    }
+.nav-bar {
+  .center();
+  flex-direction: column;
+  h1 {
+    padding: 0 0 3% 0;
+    font-size: 50px;
+  }
 
-    h4{
-        font-size: 18px;
-        text-align: center;
-        margin: 2%;
+  h4 {
+    font-size: 18px;
+    text-align: center;
+    margin: 2%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    width: 97%;
+    border-top: 2px dashed black;
+    padding: 1% 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color:@main-color;
+  }
+
+  .main-images {
+    display: flex;
+    justify-content: space-evenly;
+
+    .header-img {
+      width: 47%;
+      border: 2px dotted @main-color;
+      padding: 1%;
     }
-    
-    
-    nav{
-        display: flex;
-        justify-content: space-around;
+    .header-img2 {
+      width: 47%;
+      border: 2px dotted @main-color;
+      padding: 1%;
+    }
+    @media @phone {
+      flex-direction: column;
+
+      .header-img {
         width: 97%;
-        border-top: 2px dashed black;
-        padding: 1% 0;
+        margin-bottom: 2%;
+      }
+      .header-img2 {
+        width: 97%;
+      }
     }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
+  }
+  @media @phone {
+    nav {
+      justify-content: space-around;
+      width: 95%;
     }
-
-    a:hover{
-        color:rgb(255, 158, 252);
-    }
-  
-    .main-images{
-        display: flex;
-        justify-content: space-evenly;
-        
-        .header-img{
-            width: 47%;
-            border: 1px dotted rgb(255, 158, 252);
-            padding: 1%;
-        }
-        .header-img2{
-            width: 47%;
-            border: 1px dotted rgb(255, 158, 252);
-            padding: 1%;
-        }
-        @media @phone{
-            flex-direction: column;
-    
-            .header-img{
-                width: 97%;
-                margin-bottom: 2%;
-            }
-            .header-img2{
-                width: 97%;
-            }
-        }
-
-    }
-    @media @phone{
-        nav{
-            justify-content: space-around;
-            width: 95%;
-        }
-    }
+  }
 }
