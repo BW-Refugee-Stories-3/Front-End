@@ -1,3 +1,7 @@
+@media (max-width: 500px) {
+  width: 100%;
+  text-align: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -258,11 +262,11 @@ footer {
   color: black;
   border: 2px solid #ff9efc;
 }
-.story .story1 button:hover {
+.story .story1 button button:hover {
   background-color: #ff9efc;
   color: white;
 }
-.story .story1 nav a {
+.story .story1 .button-link {
   text-decoration: none;
 }
 @media (max-width: 500px) {
@@ -296,12 +300,12 @@ footer {
   align-items: center;
   text-align: center;
   margin: 2% 29%;
+  width: 50%;
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
-  width: 50%;
 }
-.story .story2 button:hover {
+.story .story2 button button:hover {
   background-color: #ff9efc;
   color: white;
 }
@@ -331,6 +335,7 @@ footer {
 .story .story3 button {
   padding: 1%;
   border-radius: 8px;
+  background: grey;
   font-size: 20px;
   align-items: center;
   text-align: center;
@@ -340,7 +345,7 @@ footer {
   color: black;
   border: 2px solid #ff9efc;
 }
-.story .story3 button:hover {
+.story .story3 button button:hover {
   background-color: #ff9efc;
   color: white;
 }
@@ -366,16 +371,17 @@ footer {
   font-size: 30px;
 }
 .aboutus-intro {
-  font-size: 40px;
-  align-items: center;
-  padding: 2%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 2%;
 }
 .team-members {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 @media (max-width: 500px) {
   .team-members {
@@ -386,6 +392,7 @@ footer {
 .team-members .indiv-member {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   width: 70%;
   margin-left: auto;
@@ -404,6 +411,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 25px;
 }
 @media (max-width: 500px) {
   .team-members .img-member {
@@ -412,32 +420,29 @@ footer {
   }
 }
 .team-members .info {
-  text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 50%;
 }
 .team-members .info .name {
   margin: 2%;
+  padding-left: 2%;
 }
 .team-members .info .title {
   font-size: 13px;
   padding: 2%;
 }
-.team-members .info .follow a {
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-  padding: 2%;
-}
-.team-members .info .follow a:hover {
-  color: #ff9efc;
+.team-members .info .follow-img {
+  width: 25%;
+  margin: 2% 0 0 38%;
 }
 .contactus {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   border: 1px dotted #ff9efc;
   width: 50%;
   margin-left: auto;
@@ -447,7 +452,7 @@ footer {
 @media (max-width: 500px) {
   .contactus {
     width: 100%;
-    background: #f7caf6;
+    background: #ff9efc;
   }
 }
 .contactus .title-contactus {
@@ -457,13 +462,20 @@ footer {
 .contactus button {
   padding: 1%;
   border-radius: 8px;
-  font-size: 15px;
   align-items: center;
   text-align: center;
-  width: 110%;
+  margin: 2% 29%;
+  width: 50%;
   background-color: white;
   color: black;
   border: 2px solid #ff9efc;
+  background: grey;
+  font-size: 20px;
+  width: 120%;
+}
+.contactus button button:hover {
+  background-color: #ff9efc;
+  color: white;
 }
 .contactus button:hover {
   background-color: #ff9efc;
