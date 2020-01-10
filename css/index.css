@@ -262,6 +262,9 @@ footer {
   background-color: #ff9efc;
   color: white;
 }
+.story .story1 nav a {
+  text-decoration: none;
+}
 @media (max-width: 500px) {
   .story .story1 {
     width: 97%;
@@ -360,6 +363,7 @@ footer {
 }
 .about p {
   text-align: center;
+  font-size: 30px;
 }
 .aboutus-intro {
   font-size: 40px;
