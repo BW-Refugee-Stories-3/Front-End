@@ -21,7 +21,10 @@
          button{
             .button();
          }
-
+         button:hover{
+            background-color:@main-color;
+            color: white;
+        }
         .button-link{
             text-decoration: none;
         }
@@ -50,8 +53,12 @@
          }
          button{
             .button();
+           
          }
-
+         button:hover{
+            background-color:@main-color;
+            color: white;
+        }
         @media @phone{
             width: 97%;
     
@@ -61,6 +68,7 @@
             }
             button{
                 margin: 1% 22%;
+                
             }
         }
     }//end of story2
@@ -80,6 +88,10 @@
          button{
             .button();
          }
+         button:hover{
+            background-color:@main-color;
+            color: white;
+        }
         @media @phone{
             width: 97%;
     
@@ -103,7 +115,7 @@
     
         p{
            text-align: center; 
-           font-size: 30px;
+           font-size: 18px;
         }
         
     }//end of about-text
@@ -154,12 +166,15 @@
 
             .name{
                 margin: 2%;
-                padding-left: 2%;
+                display: inline-block;
+                text-align: center;
                 
             }
             .title{
                 font-size: 13px;
                 padding: 2%;
+                display: inline-block;
+                text-align: center;
             }
             .follow-img{
                 width: 25%;
@@ -194,11 +209,14 @@
             background: grey;
             font-size: 20px;
             width: 120%;
+            margin: 2% 12%;
+            display: inline-block;
+            text-align: center;
          }
-
          button:hover{
             background-color:@main-color;
             color: white;
+            border: 1px solid white;
         }
     }
 

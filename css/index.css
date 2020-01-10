@@ -145,6 +145,7 @@ body {
   padding: 2%;
   border: 1px solid black;
   background-color: #000000;
+  opacity: 0.9;
   background-image: url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
   background-position: top left;
   background-repeat: repeat;
@@ -262,7 +263,7 @@ footer {
   color: black;
   border: 2px solid #ff9efc;
 }
-.story .story1 button button:hover {
+.story .story1 button:hover {
   background-color: #ff9efc;
   color: white;
 }
@@ -305,7 +306,7 @@ footer {
   color: black;
   border: 2px solid #ff9efc;
 }
-.story .story2 button button:hover {
+.story .story2 button:hover {
   background-color: #ff9efc;
   color: white;
 }
@@ -345,7 +346,7 @@ footer {
   color: black;
   border: 2px solid #ff9efc;
 }
-.story .story3 button button:hover {
+.story .story3 button:hover {
   background-color: #ff9efc;
   color: white;
 }
@@ -368,7 +369,7 @@ footer {
 }
 .about p {
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
 }
 .aboutus-intro {
   display: flex;
@@ -428,11 +429,14 @@ footer {
 }
 .team-members .info .name {
   margin: 2%;
-  padding-left: 2%;
+  display: inline-block;
+  text-align: center;
 }
 .team-members .info .title {
   font-size: 13px;
   padding: 2%;
+  display: inline-block;
+  text-align: center;
 }
 .team-members .info .follow-img {
   width: 25%;
@@ -463,7 +467,6 @@ footer {
   padding: 1%;
   border-radius: 8px;
   align-items: center;
-  text-align: center;
   margin: 2% 29%;
   width: 50%;
   background-color: white;
@@ -472,12 +475,12 @@ footer {
   background: grey;
   font-size: 20px;
   width: 120%;
-}
-.contactus button button:hover {
-  background-color: #ff9efc;
-  color: white;
+  margin: 2% 12%;
+  display: inline-block;
+  text-align: center;
 }
 .contactus button:hover {
   background-color: #ff9efc;
   color: white;
+  border: 1px solid white;
 }
