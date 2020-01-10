@@ -177,6 +177,7 @@ h1 {
   justify-content: space-around;
   width: 97%;
   border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
   padding: 1% 0;
 }
 .nav-bar a {
@@ -272,6 +273,10 @@ footer {
 .story .story1 .button-link {
   text-decoration: none;
 }
+.story .story1 .button-link {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 500px) {
   .story .story1 {
     width: 97%;
@@ -313,6 +318,10 @@ footer {
   background-color: #ff9efc;
   color: white;
 }
+.story .story2 .button-link {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 500px) {
   .story .story2 {
     width: 97%;
@@ -353,6 +362,10 @@ footer {
 .story .story3 button:hover {
   background-color: #ff9efc;
   color: white;
+}
+.story .story3 .button-link {
+  text-decoration: none;
+  color: black;
 }
 @media (max-width: 500px) {
   .story .story3 {
@@ -457,12 +470,13 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px dotted #ff9efc;
-  width: 50%;
+  border: 3px dotted #ff9efc;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2%;
   border-radius: 10px;
+  margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   .contactus {
@@ -494,4 +508,11 @@ footer {
   background-color: #ff9efc;
   color: white;
   border: 1px solid white;
+}
+.userinput {
+  width: 90%;
+  margin-left: 10%;
+}
+.input-div {
+  width: 80%;
 }

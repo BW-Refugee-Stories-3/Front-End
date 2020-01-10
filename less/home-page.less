@@ -29,6 +29,10 @@
     .button-link {
       text-decoration: none;
     }
+    .button-link{
+        text-decoration: none;
+        color:black;
+    }
     @media @phone {
       width: 97%;
 
@@ -60,6 +64,10 @@
       background-color: @main-color;
       color: white;
     }
+    .button-link{
+        text-decoration: none;
+        color:black;
+    }
     @media @phone {
       width: 97%;
 
@@ -70,7 +78,7 @@
       button {
         margin: 1% 22%;
       }
-    }
+    }//end of mobile
   } //end of story2
 
   .story3 {
@@ -92,6 +100,11 @@
     button:hover {
       background-color: @main-color;
       color: white;
+    }
+
+    .button-link{
+        text-decoration: none;
+        color:black;
     }
     @media @phone {
       width: 97%;
@@ -187,12 +200,13 @@
 .contactus {
   .center();
   flex-direction: column;
-  border: 2px dotted @main-color;
-  width: 50%;
+  border: 3px dotted @main-color;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2%;
   border-radius: 10px;
+  margin-bottom: 2%;
 
   @media (max-width: 500px) {
     width: 100%;
@@ -218,4 +232,14 @@
     color: white;
     border: 1px solid white;
   }
+}
+
+.userinput{
+    width: 90%;
+    margin-left:10%;
+
+}
+
+.input-div {
+    width:80%;
 }
