@@ -500,7 +500,7 @@ footer {
   background: grey;
   font-size: 20px;
   width: 120%;
-  margin: 2% 12%;
+  margin: 3% 12%;
   display: inline-block;
   text-align: center;
 }
@@ -512,7 +512,9 @@ footer {
 .userinput {
   width: 90%;
   margin-left: 10%;
+  margin-bottom: 2%;
 }
 .input-div {
   width: 80%;
+  margin-bottom: 2%;
 }
